@@ -1,0 +1,88 @@
+html, body {
+  background-color: #000;
+  overflow-x: hidden; /* Hide horizontal overflow */
+  padding: none;
+  
+}
+
+ul, li, nav, a {
+  list-style: none;
+  text-decoration: none;
+  color: #49c5b6;
+  font-size: 34px;
+
+}
+
+.custom-text {
+  color: #d41eb5
+}
+
+.custom-margin {
+  margin-top: 300px;
+
+}
+
+.custom-border {
+  border: 1px solid #d41eb5; /* Adjust the border width and color as needed */
+}
+
+
+
+
+
+
+.github-logo {
+  width: 30px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.twitter-icon{
+  width: 30px;
+}
+
+
+.navbar-container-fixed {
+  position: absolute;
+  top: 10px; /* Adjust the top position to your desired spacing */
+  right: 50vh; /* Adjust the right position to your desired spacing */
+  z-index: 999; /* Ensure it's above other elements if needed */
+}
+.nav-item-github{
+  background-color: inherit;
+}
+
+
+.Footer {
+  margin-top: 12.5vh;
+  color: white; /* Text color */
+  text-align: center; /* Center-align text */
+}
+
+.custom-navbar-container {
+  position: relative;
+  width: 100%;
+}
+
+.custom-banner {
+  width: 100%;
+  height: 100px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+
+
